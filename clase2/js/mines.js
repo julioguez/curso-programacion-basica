@@ -24,6 +24,12 @@ alert("Estas en un campo minado ZOMFG!!!");
 x = prompt("Elige entre 0 y 2 para tu posición horizontal: ");
 y = prompt("Elige entre 0 o 2 para tu posición vertical: ");
 
+x = parseInt(x);
+y = parseInt(y);
+
+/*document.write(typeof x);
+document.write(typeof y);*/
+
 var picked = field[x][y];
 /*document.write(picked);*/
 
